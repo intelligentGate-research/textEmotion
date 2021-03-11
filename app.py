@@ -22,7 +22,7 @@ def get_prob():
     #     return jsonify({"Emotion 3": classify_facial()})
     # else:
     a = train()
-    return jsonify({"Emotion ": a})
+    return jsonify({"Emotion ": "works"})
 
 
 # @app.route('/classify/text/emotion', methods=['POST'])
